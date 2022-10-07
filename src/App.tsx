@@ -64,7 +64,7 @@ function App() {
 						</CardText>
 						<CardFooter>
 							<div className="">
-								<Anchor url="">View website</Anchor>
+								<Anchor url="">View website &rarr;</Anchor>
 							</div>
 							<div className="flex gap-1">
 								<Tag>React</Tag>
@@ -83,7 +83,7 @@ function App() {
 						</CardText>
 						<CardFooter>
 							<div className="">
-								<Anchor url="">View website</Anchor>
+								<Anchor url="">View website &rarr;</Anchor>
 							</div>
 							<div className="flex gap-1">
 								<Tag>React</Tag>
@@ -101,7 +101,7 @@ function App() {
 						<CardText>A simple invoice generator.</CardText>
 						<CardFooter>
 							<div className="">
-								<Anchor url="">View website</Anchor>
+								<Anchor url="">View website &rarr;</Anchor>
 							</div>
 							<div className="flex gap-1">
 								<Tag>React</Tag>
