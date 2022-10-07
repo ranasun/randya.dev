@@ -23,7 +23,7 @@ function App() {
 				<section className="py-[120px]">
 					<div>
 						<h1 className="text-4xl leading-[48px] py-10">
-							Hello! I'm <strong>Randy.</strong>
+							Hello! 👋 I'm <strong>Randy.</strong>
 							<br />I build modern web applications.
 						</h1>
 					</div>
