@@ -156,14 +156,14 @@ function App() {
 									color={dark ? '#000000' : '#ffffff'}
 								>
 									<path
-										d="M21 8v8a5 5 0 01-5 5H8a5 5 0 01-5-5V8a5 5 0 015-5h8a5 5 0 015 5zM7 17v-7"
+										d="M21 9v6M3 15V9M12 21v-6M12 3v6M12 15L3 9l9-6 9 6-9 6z"
 										stroke={dark ? '#000000' : '#ffffff'}
 										strokeWidth="1.45"
 										strokeLinecap="round"
 										strokeLinejoin="round"
 									></path>
 									<path
-										d="M11 17v-3.25M11 10v3.75m0 0c0-3.75 6-3.75 6 0V17M7 7.01l.01-.011"
+										d="M12 21l-9-6 9-6 9 6-9 6z"
 										stroke={dark ? '#000000' : '#ffffff'}
 										strokeWidth="1.45"
 										strokeLinecap="round"
@@ -182,14 +182,14 @@ function App() {
 									color={dark ? '#000000' : '#ffffff'}
 								>
 									<path
-										d="M21 9v6M3 15V9M12 21v-6M12 3v6M12 15L3 9l9-6 9 6-9 6z"
+										d="M21 8v8a5 5 0 01-5 5H8a5 5 0 01-5-5V8a5 5 0 015-5h8a5 5 0 015 5zM7 17v-7"
 										stroke={dark ? '#000000' : '#ffffff'}
 										strokeWidth="1.45"
 										strokeLinecap="round"
 										strokeLinejoin="round"
 									></path>
 									<path
-										d="M12 21l-9-6 9-6 9 6-9 6z"
+										d="M11 17v-3.25M11 10v3.75m0 0c0-3.75 6-3.75 6 0V17M7 7.01l.01-.011"
 										stroke={dark ? '#000000' : '#ffffff'}
 										strokeWidth="1.45"
 										strokeLinecap="round"
