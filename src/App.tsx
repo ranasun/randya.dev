@@ -43,7 +43,7 @@ function App() {
 						</div>
 						<div className="h-[120px] w-[120px] bg-gray-200 rounded-full"></div>
 					</div>
-					<Anchor url="">View Resume</Anchor>
+					<Anchor url="">Download Resume &darr;</Anchor>
 				</section>
 
 				{/* PROJECTS */}
