@@ -32,24 +32,26 @@ function App() {
 				{/* ABOUT */}
 				<section className="py-10">
 					<h2 className="text-3xl">About</h2>
-					<div className="flex justify-between items-center mt-4">
-						<div className="w-2/3">
-							<p className="text-grey-darkest text-lg leading-normal mt-1">
-								Hi, my name is Randy. I'm a software engineer
-								specializing in web development. I'm based in
-								Los Angeles, CA and currently work as a full
-								stack developer for Water Source Solutions.
+					<div className="flex flex-col-reverse gap-4 justify-between items-center mt-4 md:flex-row">
+						<div className="w-full text-center md:w-2/3 md:text-left ">
+							<p className="text-grey-darkest text-lg leading-normal">
+								I'm a software engineer specializing in web
+								development. I'm based in Los Angeles, CA and
+								currently work as a full stack developer for
+								Water Source Solutions.
 							</p>
+							<div className="mt-4">
+								<Anchor url="">Download Resume &darr;</Anchor>
+							</div>
 						</div>
-						<div className="h-[120px] w-[120px] bg-gray-200 rounded-full"></div>
+						<div className="h-[150px] w-[150px] md:h-[200px] md:w-[200px] bg-gray-200 rounded-full"></div>
 					</div>
-					<Anchor url="">Download Resume &darr;</Anchor>
 				</section>
 
 				{/* PROJECTS */}
 				<section className="py-10">
 					<h2 className="text-3xl">Projects</h2>
-					<p className="w-2/3 mt-4 text-grey-darkest text-lg leading-normal">
+					<p className="w-full md:w-2/3 mt-4 text-grey-darkest text-lg leading-normal">
 						Here are some of the projects I've built recently.
 					</p>
 					<Card>
@@ -120,8 +122,8 @@ function App() {
 
 				{/* FOOTER */}
 				<footer>
-					<div className="flex justify-between items-center">
-						<span className="text-xs">
+					<div className="flex justify-center flex-col-reverse md:flex-row md:justify-between items-center gap-4">
+						<span className="text-xs text-center">
 							This site was built from scratch using <u>React</u>,{' '}
 							<u>TaildwindCSS</u> & <u>Iconoir</u>.
 						</span>
