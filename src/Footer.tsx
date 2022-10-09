@@ -8,7 +8,7 @@ const Footer: React.FC<Props> = ({ darkMode }) => {
 	return (
 		<footer>
 			<div className="flex justify-center flex-col-reverse md:flex-row md:justify-between items-center gap-4">
-				<span className="text-xs text-center">
+				<span className="text-xs text-center text-gray-400">
 					This site was built from scratch using <u>React</u>,{' '}
 					<u>Taildwindcss</u> & <u>Iconoir</u>.
 				</span>
