@@ -12,7 +12,7 @@ const Footer: React.FC<Props> = ({ darkMode }) => {
 					This site was built from scratch using <u>React</u>,{' '}
 					<u>Taildwindcss</u> & <u>Iconoir</u>.
 				</span>
-				<span className="flex gap-2">
+				<span className="flex gap-4 md:gap-2">
 					<Icon>
 						<svg
 							width="24px"
