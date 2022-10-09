@@ -6,7 +6,7 @@ import Button from './Button';
 import Tag from './Tag';
 import Anchor from './Anchor';
 import { Card, CardFooter, CardText, CardTitle } from './Card';
-
+import ShowToggle from './ShowToggle';
 function App() {
 	const [dark, setDark] = useState(false);
 	const [now, setNow] = useState(0);
@@ -63,15 +63,7 @@ function App() {
 								more than {yoe} years now or exactly {now}{' '}
 								seconds.
 							</p>
-							<div className="mt-4">
-								{!showMore ? (
-									<span
-										className=" text-gray-400 cursor-pointer hover:underline text-sm font-thin"
-										onClick={() => setShowMore(true)}
-									>
-										&darr; SHOW MORE
-									</span>
-								) : (
+							<div className={showMore ? 'block' : 'hidden'}>
 									<div className="">
 										<h3 className="mt-8 text-2xl">
 											Experience
@@ -143,15 +135,12 @@ function App() {
 												Download Resume &rarr;
 											</Anchor>
 										</div>
-										<span
-											className=" text-gray-400 cursor-pointer hover:underline mt-8 text-sm font-thin inline-block"
-											onClick={() => setShowMore(false)}
-										>
-											&uarr; SHOW LESS
-										</span>
 									</div>
-								)}
 							</div>
+							<ShowToggle
+								onClick={() => setShowMore(!showMore)}
+								state={showMore}
+							/>
 						</div>
 						<div className="h-[80px] w-[80px] md:h-[150px] md:w-[150px] bg-gray-200 rounded-full"></div>
 					</div>
