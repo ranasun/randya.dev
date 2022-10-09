@@ -25,7 +25,7 @@ export const CardTitle: React.FC<Props> = ({ children }) => {
 };
 
 export const CardText: React.FC<Props> = ({ children }) => {
-	return <p className="text-lg">{children}</p>;
+	return <div className="text-lg">{children}</div>;
 };
 
 export const CardFooter: React.FC<Props> = ({ children }) => {
