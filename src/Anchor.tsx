@@ -7,7 +7,7 @@ interface Props {
 
 const Anchor: React.FC<Props> = ({ children, url }) => {
 	return (
-		<div className="mt-2 text-gray-400">
+		<div className="mt-2">
 			<a href={url} className=" hover:underline">
 				{children}
 			</a>
