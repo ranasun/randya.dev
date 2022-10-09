@@ -9,9 +9,10 @@ import { Card, CardFooter, CardText, CardTitle } from './Card';
 
 function App() {
 	const [dark, setDark] = useState(false);
-	const [yoe, setYoe] = useState(new Date().getFullYear() - 2013);
 	const [now, setNow] = useState(0);
 	const [showMore, setShowMore] = useState(false);
+
+	const yoe = new Date().getFullYear() - 2013;
 
 	useEffect(() => {
 		let secTimer = setInterval(() => {
