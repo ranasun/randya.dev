@@ -79,7 +79,7 @@ const About = () => {
 						state={showMore}
 					/>
 				</div>
-				<div className="h-[80px] w-[80px] md:h-[150px] md:w-[150px] bg-gray-200 rounded-full"></div>
+				<div className="h-[150px] w-[150px] md:h-[150px] md:w-[150px] bg-cover bg-[url('./assets/photo.jpg')] rounded-full"></div>
 			</div>
 		</section>
 	);
