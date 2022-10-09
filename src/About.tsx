@@ -44,6 +44,7 @@ const About = () => {
 							{experience.map(
 								({ title, company, start, end }) => (
 									<Entry
+										key={title}
 										title={title}
 										subtitle={company}
 										start={start}
@@ -55,6 +56,7 @@ const About = () => {
 							<h3 className="mt-8 text-2xl">Education</h3>
 							{education.map(({ degree, school, start, end }) => (
 								<Entry
+									key={degree}
 									title={degree}
 									subtitle={school}
 									start={start}
@@ -64,6 +66,7 @@ const About = () => {
 							<h3 className="mt-8 text-2xl">Certifications</h3>
 							{certifications.map(({ title, company, year }) => (
 								<Entry
+									key={title}
 									title={title}
 									subtitle={company}
 									end={year}
