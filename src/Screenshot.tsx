@@ -4,7 +4,6 @@ interface Props {
 }
 
 const Screenshot: React.FC<Props> = ({ title, imgUrl }) => {
-	console.log(imgUrl);
 	return (
 		<div className="text-xs rounded-lg bg-clip-padding overflow-hidden shadow-md border-gray-200 dark:border-gray-800 border mx-auto md:w-full">
 			<div className=" bg-slate-700 p-2 flex text-gray-400 font-bold mono items-center">
