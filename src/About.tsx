@@ -25,7 +25,7 @@ const About = () => {
 
 	return (
 		<section className="py-10">
-			<h2 className="text-3xl">About</h2>
+			<h2 className="text-3xl font-bold">About</h2>
 			<div className="text-grey-darkest text-lg leading-normal flex flex-col-reverse gap-4 justify-between items-start mt-4 md:flex-row">
 				<div className="w-full md:w-2/3 ">
 					<p className=" ">
