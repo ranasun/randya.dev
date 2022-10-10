@@ -27,7 +27,8 @@ const About = () => {
 		<section className="py-10">
 			<h2 className="text-3xl font-bold">About</h2>
 			<div className="text-grey-darkest text-lg leading-normal flex flex-col-reverse gap-4 justify-between items-start mt-4 md:flex-row">
-				<div className="w-full md:w-2/3 ">
+				<div className="w-full md:w-2/3">
+					<div className="md:hidden h-[120px] w-[120px] bg-cover bg-[url('./assets/photo.jpg')] rounded-full float-left mr-4"></div>
 					<p className=" ">
 						I'm a software engineer specializing in web development.
 						I'm based in Los Angeles, CA and currently work as a
@@ -85,7 +86,7 @@ const About = () => {
 						state={showMore}
 					/>
 				</div>
-				<div className="h-[150px] w-[150px] md:h-[150px] md:w-[150px] bg-cover bg-[url('./assets/photo.jpg')] rounded-full"></div>
+				<div className="hidden md:block h-[150px] w-[150px] bg-cover bg-[url('./assets/photo.jpg')] rounded-full"></div>
 			</div>
 		</section>
 	);
