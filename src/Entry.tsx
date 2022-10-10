@@ -9,7 +9,7 @@ const Entry: React.FC<Props> = ({ title, subtitle, start, end }) => {
 	return (
 		<div>
 			<h4 className="text-lg mt-2">{title}</h4>
-			<h5 className="uppercase mono text-sm">
+			<h5 className="uppercase mono text-sm text-zinc-400">
 				{subtitle} {start} &mdash; {end}
 			</h5>
 		</div>
