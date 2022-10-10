@@ -36,7 +36,8 @@ const About = () => {
 					<p className="mt-4 ">
 						I started as a self-taught developer and have been
 						building web applications professionaly for more than{' '}
-						{yoe} years now or exactly {now} seconds.
+						<code>{yoe}</code> years now or exactly{' '}
+						<code>{now}</code> seconds.
 					</p>
 					<div className={showMore ? 'block' : 'hidden'}>
 						<div className="">
