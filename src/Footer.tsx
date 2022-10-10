@@ -8,12 +8,12 @@ const Footer: React.FC<Props> = ({ darkMode }) => {
 	return (
 		<footer>
 			<div className="flex justify-center flex-col-reverse md:flex-row md:justify-between items-center gap-4">
-				<span className="text-xs text-center text-gray-400">
-					This site was built from scratch using <u>React</u>,{' '}
-					<u>Taildwindcss</u> & <u>Iconoir</u>.
+				<span className="text-xs font-light text-center text-gray-400">
+					This site was built from scratch using React, Taildwindcss,
+					and Iconoir.
 				</span>
 				<span className="flex gap-4 md:gap-2">
-					<Icon>
+					<Icon url="https://github.com/ranasun">
 						<svg
 							width="24px"
 							height="24px"
@@ -32,7 +32,7 @@ const Footer: React.FC<Props> = ({ darkMode }) => {
 							></path>
 						</svg>
 					</Icon>
-					<Icon>
+					<Icon url="https://codepen.io/randyadev">
 						<svg
 							width="24px"
 							height="24px"
@@ -58,7 +58,7 @@ const Footer: React.FC<Props> = ({ darkMode }) => {
 							></path>
 						</svg>
 					</Icon>
-					<Icon>
+					<Icon url="https://www.linkedin.com/in/randyasuncion/">
 						<svg
 							width="24px"
 							height="24px"
@@ -84,7 +84,7 @@ const Footer: React.FC<Props> = ({ darkMode }) => {
 							></path>
 						</svg>
 					</Icon>
-					<Icon>
+					<Icon url="https://www.instagram.com/randya.dev/">
 						<svg
 							width="24px"
 							height="24px"
