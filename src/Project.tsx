@@ -17,7 +17,7 @@ const Project: React.FC<Props> = ({
 	imgUrl,
 }) => {
 	return (
-		<div className="w-full my-4 flex gap-4 flex-col md:flex-row-reverse py-4">
+		<div className="w-full my-4 flex gap-4 flex-col md:flex-row-reverse py-4 pb-8">
 			<div className="w-full md:w-2/5 h-full">
 				<Screenshot title={title} imgUrl={imgUrl} />
 			</div>
@@ -32,7 +32,7 @@ const Project: React.FC<Props> = ({
 						))}
 					</div>
 				</div>
-				<div className="mt-4 flex gap-2 items-start flex-col-reverse justify-between md:flex-row md:items-end">
+				<div className="mt-4">
 					<Anchor url={url}>View website &rarr;</Anchor>
 				</div>
 			</div>
