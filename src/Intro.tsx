@@ -1,4 +1,4 @@
-const Heading = () => {
+const Intro = () => {
 	return (
 		<section className="py-[120px]">
 			<div>
@@ -11,4 +11,4 @@ const Heading = () => {
 	);
 };
 
-export default Heading;
+export default Intro;
