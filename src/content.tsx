@@ -71,7 +71,7 @@ export const projects = [
 			'Machine Learning',
 			'REST API',
 		],
-		url: 'https://randya.dev/heartly',
+		url: 'https://heartly.randya.dev',
 		imgUrl: heartlyImg,
 	},
 	{
