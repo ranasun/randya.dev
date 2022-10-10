@@ -73,7 +73,9 @@ const About = () => {
 								/>
 							))}
 							<div className="mt-8">
-								<Anchor url="">Download Resume &rarr;</Anchor>
+								<Anchor url="./resume.pdf">
+									Download Resume &rarr;
+								</Anchor>
 							</div>
 						</div>
 					</div>
