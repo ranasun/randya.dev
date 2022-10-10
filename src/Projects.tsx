@@ -4,7 +4,7 @@ import Project from './Project';
 const Projects = () => {
 	return (
 		<section className="py-10">
-			<h2 className="text-3xl">Projects</h2>
+			<h2 className="text-3xl font-bold">Projects</h2>
 			<p className="w-full md:w-2/3 mt-4 text-grey-darkest text-lg leading-normal">
 				Here are some of the projects I've built recently.
 			</p>
