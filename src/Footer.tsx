@@ -6,7 +6,7 @@ interface Props {
 
 const Footer: React.FC<Props> = ({ darkMode }) => {
 	return (
-		<footer>
+		<footer className="pt-20">
 			<div className="flex justify-center flex-col-reverse md:flex-row md:justify-between items-center gap-4">
 				<span className="text-xs font-light text-center text-gray-400">
 					This site was built from scratch using React, Taildwindcss,
