@@ -6,13 +6,13 @@ interface Props {
 
 const Footer: React.FC<Props> = ({ darkMode }) => {
 	return (
-		<footer>
+		<footer className="pt-20">
 			<div className="flex justify-center flex-col-reverse md:flex-row md:justify-between items-center gap-4">
 				<span className="text-xs font-light text-center text-gray-400">
 					This site was built from scratch using React, Taildwindcss,
 					and Iconoir.
 				</span>
-				<span className="flex gap-4 md:gap-2">
+				<span className="flex gap-8 md:gap-4">
 					<Icon url="https://github.com/ranasun">
 						<svg
 							width="24px"

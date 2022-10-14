@@ -4,7 +4,7 @@ const Contact = () => {
 			<h1 className="text-3xl text-center">
 				If you're on to something interesting, just{' '}
 				<a
-					href="mailto:randya.dev@gmail.com"
+					href="mailto:hello@randya.dev"
 					target="__blank"
 					className="hover:underline font-bold"
 				>

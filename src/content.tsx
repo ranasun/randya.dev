@@ -1,6 +1,6 @@
-import jsNotebookImg from './assets/screenshots/js-notebook.png';
-import heartlyImg from './assets/screenshots/heartly.png';
-import invoiceGeneratorImg from './assets/screenshots/invoice-generator.png';
+import jsNotebookImg from './assets/screenshots/js-notebook.webp';
+import heartlyImg from './assets/screenshots/heartly.webp';
+import invoiceGeneratorImg from './assets/screenshots/invoice-generator.webp';
 
 export const experience = [
 	{
