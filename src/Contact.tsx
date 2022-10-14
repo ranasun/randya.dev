@@ -2,7 +2,7 @@ const Contact = () => {
 	return (
 		<section className=" py-40">
 			<h1 className="text-3xl text-center">
-				You've reached the end. Don't forget to{' '}
+				If you're on to something interesting, just{' '}
 				<a
 					href="mailto:randya.dev@gmail.com"
 					target="__blank"
