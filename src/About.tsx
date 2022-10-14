@@ -35,8 +35,8 @@ const About = () => {
 						full stack developer for Water Source Solutions.
 					</p>
 					<p className="mt-4 ">
-						I started as a self-taught developer and have been
-						building web applications professionaly for more than{' '}
+						I started as a self-taught dev and have been building
+						web applications professionaly for more than{' '}
 						<code>{yoe}</code> years now or exactly{' '}
 						<code>{now}</code> seconds.
 					</p>
