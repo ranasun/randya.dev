@@ -17,7 +17,7 @@ const Project: React.FC<Props> = ({
 	imgUrl,
 }) => {
 	return (
-		<div className="w-full my-4 flex gap-4 flex-col md:flex-row-reverse py-4 pb-8 border-b">
+		<div className="w-full my-4 flex gap-4 flex-col md:flex-row-reverse py-4 pb-8 border-b dark:border-gray-700">
 			<a
 				href={url}
 				target="__target"
