@@ -1,6 +1,7 @@
 import jsNotebookImg from './assets/screenshots/js-notebook.webp';
 import heartlyImg from './assets/screenshots/heartly.webp';
 import invoiceGeneratorImg from './assets/screenshots/invoice-generator.webp';
+import guhitImg from './assets/screenshots/guhit.webp';
 
 export const experience = [
 	{
@@ -80,5 +81,12 @@ export const projects = [
 		tags: ['Vue.js', 'Tailwindcss', 'Pdfmake', 'PWA'],
 		url: 'https://ranasun.github.io/invoice-generator/',
 		imgUrl: invoiceGeneratorImg,
+	},
+	{
+		title: 'Guhit',
+		description: 'A simple drawing app using canvas.',
+		tags: ['Typescript', 'React', 'canvas-api', 'PWA'],
+		url: 'https://ranasun.github.io/guhit/',
+		imgUrl: guhitImg,
 	},
 ];
