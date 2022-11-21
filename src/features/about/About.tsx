@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import ShowToggle from './ShowToggle';
-import { experience, education, certifications } from '../../common/content';
+import { experience, education, certifications } from '@common/content';
 import Entry from './Entry';
-import Anchor from '../../common/Anchor';
+import Anchor from '@common/Anchor';
 
 const About = () => {
 	const [now, setNow] = useState(0);
