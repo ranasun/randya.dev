@@ -1,4 +1,4 @@
-import Icon from './Icon';
+import Icon from '@common/Icon';
 import Mode from './Mode';
 
 interface Props {
