@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import Page from './Page';
-import Footer from './Footer';
-import Nav from './Nav';
-import Intro from './Intro';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
+import Page from './common/Page';
+import Footer from './features/footer/Footer';
+import Nav from './features/nav/Nav';
+import Intro from './features/intro/Intro';
+import About from './features/about/About';
+import Projects from './features/projects/Projects';
+import Contact from './features/contact/Contact';
 
 function App() {
 	const [dark, setDark] = useState(false);

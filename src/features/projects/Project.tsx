@@ -1,5 +1,5 @@
 import Screenshot from './Screenshot';
-import Anchor from './Anchor';
+import Anchor from '../../common/Anchor';
 import Tag from './Tag';
 
 interface Props {

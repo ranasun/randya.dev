@@ -1,4 +1,4 @@
-import { projects } from './content';
+import { projects } from '@common/content';
 import Project from './Project';
 
 const Projects = () => {
