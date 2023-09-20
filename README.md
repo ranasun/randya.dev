@@ -1,6 +1,6 @@
 # randya.dev
 
-Portfolio website to to showcase projects.
+Portfolio website to showcase projects.
 
 ![screenshot.png](screenshot.png)
 
