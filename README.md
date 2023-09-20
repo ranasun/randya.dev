@@ -6,7 +6,7 @@ Portfolio website to showcase projects.
 
 [Live](https://ranasun.github.io)
 
-## Installation
+## Install
 
 ```
 npm install
@@ -16,8 +16,8 @@ npm install
 
 ```
 npm run dev
+npm runbuild
 npm run preview
-npm build
 ```
 
 ## Built with
