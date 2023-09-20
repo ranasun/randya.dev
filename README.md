@@ -4,7 +4,7 @@ Portfolio website to showcase projects.
 
 ![screenshot.png](screenshot.png)
 
-[Live Demo](https://ranasun.github.io)
+[Live](https://ranasun.github.io)
 
 ## Installation
 
