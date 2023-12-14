@@ -16,7 +16,7 @@ npm install
 
 ```
 npm run dev
-npm runbuild
+npm run build
 npm run preview
 ```
 
