@@ -36,7 +36,7 @@ const About = () => {
 					</p>
 					<p className="mt-4 ">
 						I started as a self-taught dev and have been building
-						web applications professionaly for more than{' '}
+						web applications professionally for more than{' '}
 						<code>{yoe}</code> years now or exactly{' '}
 						<code>{now}</code> seconds.
 					</p>
