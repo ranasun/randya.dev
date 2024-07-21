@@ -9,9 +9,7 @@ interface Props {
 const Nav: React.FC<Props> = ({ darkMode, onClick }) => {
 	return (
 		<nav className="flex justify-between items-center py-2">
-			<a href="/">
-				<Icon>RA</Icon>
-			</a>
+			<Icon url="/">RA</Icon>
 			<div className="cursor-pointer" onClick={onClick}>
 				<Mode darkMode={darkMode} />
 			</div>

@@ -14,9 +14,7 @@ const About = () => {
 		let secTimer = setInterval(() => {
 			const date1 = new Date();
 			const date2 = new Date('2013-09-01 00:00:00');
-			const seconds = Math.round(
-				(date1.getTime() - date2.getTime()) / 1000
-			);
+			const seconds = Math.round((date1.getTime() - date2.getTime()) / 1000);
 			setNow(seconds);
 		}, 1000);
 
@@ -30,61 +28,34 @@ const About = () => {
 				<div className="w-full md:w-2/3">
 					<div className="md:hidden h-[120px] w-[120px] bg-cover bg-[url('./assets/photo.jpg')] rounded-full float-left mr-4"></div>
 					<p className=" ">
-						I'm a software engineer specializing in web development.
-						I'm based in Los Angeles, CA and currently work as a
-						full stack developer for Water Source Solutions.
+						I'm a software engineer specializing in web development. I'm based in Los Angeles, CA and currently work as a full stack developer for
+						Water Source Solutions.
 					</p>
 					<p className="mt-4 ">
-						I started as a self-taught dev and have been building
-						web applications professionally for more than{' '}
-						<code>{yoe}</code> years now or exactly{' '}
-						<code>{now}</code> seconds.
+						I started as a self-taught dev and have been building web applications professionally for more than <code>{yoe}</code> years now or
+						exactly <code>{now}</code> seconds.
 					</p>
 					<div className={showMore ? 'block' : 'hidden'}>
 						<div className="">
 							<h3 className="mt-8 text-2xl">Experience</h3>
-							{experience.map(
-								({ title, company, start, end }) => (
-									<Entry
-										key={title}
-										title={title}
-										subtitle={company}
-										start={start}
-										end={end}
-									/>
-								)
-							)}
+							{experience.map(({ title, company, start, end }) => (
+								<Entry key={title} title={title} subtitle={company} start={start} end={end} />
+							))}
 
 							<h3 className="mt-8 text-2xl">Education</h3>
 							{education.map(({ degree, school, start, end }) => (
-								<Entry
-									key={degree}
-									title={degree}
-									subtitle={school}
-									start={start}
-									end={end}
-								/>
+								<Entry key={degree} title={degree} subtitle={school} end={end} />
 							))}
 							<h3 className="mt-8 text-2xl">Certifications</h3>
 							{certifications.map(({ title, company, year }) => (
-								<Entry
-									key={title}
-									title={title}
-									subtitle={company}
-									end={year}
-								/>
+								<Entry key={title} title={title} subtitle={company} end={year} />
 							))}
 							<div className="mt-8">
-								<Anchor url="./resume.pdf">
-									Download Resume &rarr;
-								</Anchor>
+								<Anchor url="./resume.pdf">Download Resume &rarr;</Anchor>
 							</div>
 						</div>
 					</div>
-					<ShowToggle
-						onClick={() => setShowMore(!showMore)}
-						state={showMore}
-					/>
+					<ShowToggle onClick={() => setShowMore(!showMore)} state={showMore} />
 				</div>
 				<div className="hidden md:block h-[150px] w-[150px] bg-cover bg-[url('./assets/photo.jpg')] rounded-full"></div>
 			</div>
